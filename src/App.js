@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react'
+import './css/app.css';
+import Home from './components/pages/Home';
+import { Routes, Route } from 'react-router-dom'
+import {DrinkWarePage} from './components/pages/DrinkWarePage'
+import {KitchenWarePage} from './components/pages/KitchenWarePage'
+import {BagsPage} from './components/pages/BagsPage'
+import {CartPage} from './components/pages/CartPage'
 
-function App() {
+let App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='drinkware' element={<DrinkWarePage />} />
+      <Route path='kitchenware' element={<KitchenWarePage />} />
+      <Route path='ecofriendly-bags' element={<BagsPage />} />
+      <Route path='cart' element={<CartPage />} />
+    </Routes>
   );
 }
 

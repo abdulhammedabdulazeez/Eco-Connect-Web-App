@@ -1,0 +1,33 @@
+.second-nav a:hover {
+    border-radius: 30px;
+    color: white;
+    background-color: #3E5414;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    border-radius: 30px;
+    color: white;
+    background-color: #E4DBD8;
+    transition: all 0.5s ease-in-out;
+}
+
+.input-group-text {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+
+.carousel {
+    height: 400px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-inner, .carousel-item {
+    height: 100%;
+}

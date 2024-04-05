@@ -1,0 +1,29 @@
+// Colors
+$primary: #7ECE63;
+$secondary: #3E5414;
+$dark: #42413A;
+$light: #E4DBD8;
+$success: #3E5414;
+$info: #A6DC94;
+
+// Buttons
+$btn-radius: 50px;
+$button-padding-x: 30px;
+$button-padding-y: 10px;
+
+$btn-border-radius: $btn-radius;
+$btn-border-radius-sm: $btn-radius;
+$btn-border-radius-lg: $btn-radius;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+$navbar-toggler-border-radius: 5px;
+
+
+$enable-negative-margins: true;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
