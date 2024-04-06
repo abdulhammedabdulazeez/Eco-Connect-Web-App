@@ -5,7 +5,8 @@ import { Routes, Route } from 'react-router-dom'
 import {DrinkWarePage} from './components/pages/DrinkWarePage'
 import {KitchenWarePage} from './components/pages/KitchenWarePage'
 import {BagsPage} from './components/pages/BagsPage'
-import {CartPage} from './components/pages/CartPage'
+import { CartPage } from './components/pages/CartPage'
+
 
 let App = () => {
   return (

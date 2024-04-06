@@ -30,3 +30,35 @@ nav a.active {
 .carousel-inner, .carousel-item {
   height: 100%;
 }
+
+.our-story .custom-line-height {
+  line-height: 2 !important;
+}
+
+.custom-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.custom-shadow:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-container {
+  border-top: 3px solid #758078 !important;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.226) !important;
+}
+
+.custom-container a {
+  color: white;
+  text-decoration: none;
+  margin-right: 4px;
+}
+
+.custom-container li {
+  list-style: none;
+}
+
+.custom-icon {
+  color: #7ECE63;
+  margin-right: 5px;
+}

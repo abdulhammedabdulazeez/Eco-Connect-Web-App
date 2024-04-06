@@ -11,13 +11,15 @@ export const NavigationBar = () => {
                 <Container>
                     <div className="d-flex flex-row w-100 align-items-center">
                         <div className="me-auto">
-                            <Navbar.Brand as={Link} to='/'>EcoConnect</Navbar.Brand>
+                            <Navbar.Brand as={Link} to='/' className='fw-bold'>
+                                <span className='text-primary'>Eco</span>Connect
+                            </Navbar.Brand>
                         </div>
                         <div className="me-auto d-md-flex flex-grow-1">
                             <InputGroup>
                                 <Form.Control
                                     type="text"
-                                    placeholder="Input group example"
+                                    placeholder="Search Products"
                                     aria-label="Input group example"
                                     aria-describedby="btnGroupAddon"
                                 />

@@ -4,6 +4,10 @@ import { NavigationBar } from '../NavigationBar'
 import { ProductPageBanner } from '../ProductPageBanner'
 import { ProductsBox } from '../ProductsBox'
 import image2 from '../../images/kitchenware-section-image.png'
+import { products } from '../data/KitchenWareData'
+import { Footer } from '../Footer'
+
+
 
 export const KitchenWarePage = () => {
     return (
@@ -20,9 +24,11 @@ export const KitchenWarePage = () => {
                 textColor=''
                 />
                 
-                <ProductsBox />
+                <ProductsBox products={products}/>
             </main>
-
+            <footer>
+                <Footer />
+            </footer>
         </Fragment>
     )
 }

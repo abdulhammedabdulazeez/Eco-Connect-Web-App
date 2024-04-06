@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel, Container } from 'react-bootstrap'
-import { heroData } from './HeroData'
+import { heroData } from './data/HeroData'
 import '../css/app.css'
 
 export const Hero = () => {
@@ -20,7 +20,7 @@ export const Hero = () => {
                             <Carousel.Caption className='mb-5 me-auto'>
                                 <h2>{hero.title}</h2>
                                 <p>{hero.description}</p>
-                                <a className="btn btn-primary" href={hero.link}>Learn More <i className="fas fa-chevron-right"></i></a>
+                                <a className="btn btn-primary" href='#our-story'>Learn More <i className="fas fa-chevron-right"></i></a>
                             </Carousel.Caption>             
                             </Carousel.Item>
                         );

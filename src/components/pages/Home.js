@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import { NavigationBar } from '../NavigationBar'
 import { Hero } from '../Hero'
 import { HomePageSections } from '../HomePageSections'
+import { OurStorySection } from '../OurStorySection'
 import { Footer } from '../Footer'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
             <main>
                 <Hero />
                 <HomePageSections />
+                <OurStorySection />
             </main>
             <footer>
                 <Footer />
